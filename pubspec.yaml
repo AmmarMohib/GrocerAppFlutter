@@ -1,0 +1,122 @@
+name: groccer_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.7.0
+  image_picker: ^0.8.7
+  firebase_storage: ^11.0.15
+  cloud_firestore: ^4.4.4
+  timelines: ^0.1.0
+  timeline_tile: ^2.0.0
+  geolocator: ^9.0.2
+  firebase_auth: ^4.2.10
+  dropdown_plus: ^0.0.9
+  motion_toast: ^2.6.5
+  fluttertoast: ^8.2.1
+  animations: ^2.0.7
+  add_to_cart_animation: ^2.0.3
+  another_stepper: ^1.2.2
+  font_awesome_flutter: ^10.4.0
+  google_maps_flutter: ^2.0.9
+  geocoding: ^2.0.1
+  google_sign_in: ^6.1.0
+  # dropdown_formfield: ^0.1.4
+  # dropdown_button2: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/fruitImage.png
+    - assets/images/bakeryImage.png
+    - assets/images/groceryImage.png
+    - assets/images/meatImage.png
+    - assets/images/instantImage.png
+    - assets/images/cokeImage.png
+    - assets/images/surfImage.png
+    - assets/images/panteneImage.png
+    - assets/images/pampersImage.png
+    - assets/images/dryfruitImage.png
+    - assets/images/frozenImage.png
+    - assets/images/freshupImage.png
+    - assets/images/me-oImage.png
+    - assets/images/subcategories/batairImage.png
+    - assets/images/subcategories/bathcleanerImage.png
+    - assets/images/subcategories/beefImage.png
+    - assets/images/subcategories/biscuitImage.png
+    - assets/images/subcategories/breadImage.png
+    - assets/images/subcategories/butterImage.png
+    - assets/images/subcategories/cerealImage.png
+    - assets/images/subcategories/cheeseImage.png
+    - assets/images/subcategories/chickenImage.png
+    - assets/images/subcategories/chocolateImage.png
+    - assets/images/subcategories/coffeImage.png
+    - assets/images/subcategories/colddrinkImage.png
+    - assets/images/subcategories/coldteaImage.png
+    - assets/images/subcategories/dessertImage.png
+    - assets/images/subcategories/eggImage.png
+    - assets/images/subcategories/energydrinkImage.png
+    - assets/images/subcategories/fishImage.png
+    - assets/images/subcategories/flavouredmilkImage.png
+    - assets/images/subcategories/floorcleanerImage.png
+    - assets/images/subcategories/flourImage.png
+    - assets/images/subcategories/frenchfriesImage.png
+    - assets/images/subcategories/frozenburImage.png
+    - assets/images/subcategories/frozenfruitImage.png
+    - assets/images/subcategories/frozennugImage.png
+    - assets/images/subcategories/frozenparathaImage.png
+    - assets/images/subcategories/frozenrollsamImage.png
+    - assets/images/subcategories/frozensauceImage.png
+    - assets/images/subcategories/flourImage.png
+    - assets/images/subcategories/fruitImage.png
+    - assets/images/subcategories/honeyImage.png
+    - assets/images/subcategories/instantImage.png
+    - assets/images/subcategories/jamImage.png
+    - assets/images/subcategories/juiceImage.png
+    - assets/images/subcategories/laundryImage.png
+    - assets/images/subcategories/lentilImage.png
+    - assets/images/subcategories/marinchickImage.png
+    - assets/images/subcategories/milkImage.png
+    - assets/images/subcategories/mineralwaterImage.png
+    - assets/images/subcategories/muttonImage.png
+    - assets/images/subcategories/nimkoImage.png
+    - assets/images/subcategories/noodlesImage.png
+    - assets/images/subcategories/oilImage.png
+    - assets/images/subcategories/rabbitImage.png
+    - assets/images/subcategories/ruskImage.png
+    - assets/images/subcategories/saltImage.png
+    - assets/images/subcategories/saucesImage.png
+    - assets/images/subcategories/seafoodImage.png
+    - assets/images/subcategories/sharbatImage.png
+    - assets/images/subcategories/spiceImage.png
+    - assets/images/subcategories/teaImage.png
+    - assets/images/subcategories/vegImage.png
+    - assets/images/subcategories/yogurtImage.png
+    - assets/images/loginImage.png
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 70
